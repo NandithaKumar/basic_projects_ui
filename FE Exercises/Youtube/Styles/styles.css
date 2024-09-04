@@ -1,0 +1,56 @@
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.template {
+  width: 350px;
+}
+
+p {
+  font-family: 'Roboto', Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.thumbnail-image {
+  width: 350px;
+}
+
+.video-profile-image {
+  margin-top: 10px;
+  width: 40px;
+  border-radius: 30px;
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.name,
+.view {
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+}
+
+.name {
+  margin-top: 10px;
+}
+
+.view {
+  margin-top: 6px;
+}
