@@ -1,22 +1,12 @@
-.search-bar {
-  margin-bottom: 20px;
-}
-
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
 }
 
 .template {
-  width: 350px;
-}
-
-p {
-  font-family: 'Roboto', Arial;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  width: 100%;
 }
 
 .video-info-grid {
@@ -25,7 +15,7 @@ p {
 }
 
 .thumbnail-image {
-  width: 350px;
+  width: 100%;
 }
 
 .video-profile-image {
