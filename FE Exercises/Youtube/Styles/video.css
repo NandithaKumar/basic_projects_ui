@@ -5,6 +5,18 @@
   row-gap: 40px;
 }
 
+@media (max-width: 850px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .template {
   width: 100%;
 }
@@ -43,4 +55,19 @@
 
 .view {
   margin-top: 6px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.time-stamp {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', Arial;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  padding: 4px;
+  border-radius: 2px;
 }

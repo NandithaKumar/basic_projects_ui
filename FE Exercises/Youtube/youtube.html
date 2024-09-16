@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="Styles/general.css" />
     <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/sidebar.css" />
     <link rel="stylesheet" href="Styles/video.css" />
   </head>
   <body>
@@ -44,18 +45,51 @@
           src="Images/Icons/youtube-apps.svg"
           alt=""
         />
-        <img
-          class="notifications-icon"
-          src="Images/Icons/notifications.svg"
-          alt=""
-        />
+        <div class="notification-icon-container">
+          <img
+            class="notifications-icon"
+            src="Images/Icons/notifications.svg"
+            alt=""
+          />
+          <div class="notification-count">3</div>
+        </div>
+
         <img class="user-icon" src="Images/Icons/user-icon.jpg" alt="" />
       </div>
     </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="Images/Icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/Icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/Icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/Icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/Icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/Icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </div>
+
     <div class="grid">
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-1.webp" alt="" />
+          <div class="time-stamp">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -78,6 +112,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-2.webp" alt="" />
+          <div class="time-stamp">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -98,6 +133,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-3.webp" alt="" />
+          <div class="time-stamp">9:13</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -118,6 +154,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-4.webp" alt="" />
+          <div class="time-stamp">12:20</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -140,6 +177,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-5.webp" alt="" />
+          <div class="time-stamp">10:12</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -162,6 +200,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-6.webp" alt="" />
+          <div class="time-stamp">18:01</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -182,6 +221,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-7.webp" alt="" />
+          <div class="time-stamp">11:09</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -202,6 +242,7 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-8.webp" alt="" />
+          <div class="time-stamp">05:20</div>
         </div>
         <div class="video-info-grid">
           <div class="video-profile">
@@ -222,7 +263,9 @@
       <div class="template">
         <div class="thumbnail">
           <img class="thumbnail-image" src="Images/thumbnail-9.webp" alt="" />
+          <div class="time-stamp">10:02</div>
         </div>
+
         <div class="video-info-grid">
           <div class="video-profile">
             <img

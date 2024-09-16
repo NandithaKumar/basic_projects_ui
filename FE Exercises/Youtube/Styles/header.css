@@ -1,8 +1,17 @@
 .header {
-  height: 55px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+  z-index: 100;
 }
 
 .left-section {
@@ -98,6 +107,29 @@
 .notifications-icon {
   height: 24px;
   width: 24px;
+}
+
+.notification-icon-container {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  background-color: rgb(207, 7, 7);
+  color: white;
+  font-family: 'Roboto', Arial;
+  font-size: 8px;
+
+  border-radius: 50px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  top: 0;
+  left: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .user-icon {
