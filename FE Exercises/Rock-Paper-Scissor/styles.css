@@ -1,0 +1,51 @@
+p {
+  font-family: Arial;
+  color: white;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+.rock,
+.paper,
+.scissor {
+  background-color: rgb(25, 25, 25);
+  border: none;
+}
+
+button img {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 60px;
+  background-color: rgb(25, 25, 25);
+  padding: 30px;
+  cursor: pointer;
+}
+
+.reset {
+  padding: 7px 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+}
+
+.showResult img {
+  width: 60px;
+}
+
+.scores {
+  margin-top: 60px;
+}
